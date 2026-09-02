@@ -10,6 +10,7 @@ Projeto inicial para organização de tarefas.
 - `main.py`: script principal que exibe a mensagem de identificação do sistema.
 - `cadastro_tarefa.py:` protótipo de cadastro de tarefas em terminal.
 - `menu_tarefas.py:` protótipo de gerenciamento de tarefas por meio de um menu interativo.
+- `gerenciador_chamados.py:` protótipo para gerenciamento e consulta de chamados internos.
 - `requirements.txt`: lista as dependências instaladas no ambiente virtual do projeto.
 - `.gitignore`: evita que a pasta do ambiente virtual (`.venv/`) seja versionada no Git.
 
@@ -22,6 +23,10 @@ python cadastro_tarefa.py
 Para executar o menu de tarefas:
 
 python menu_tarefas.py
+
+Para executar o gerenciador de chamados:
+
+python gerenciador_chamados.py
 
 ## Opções do menu
 
