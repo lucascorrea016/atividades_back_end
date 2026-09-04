@@ -7,12 +7,15 @@ Projeto inicial para organização de tarefas.
 
 
 ## Estrutura do projeto
-- `main.py`: script principal que exibe a mensagem de identificação do sistema.
+- `main.py`: arquivo principal e demonstração do sistema.
 - `cadastro_tarefa.py:` protótipo de cadastro de tarefas em terminal.
 - `menu_tarefas.py:` protótipo de gerenciamento de tarefas por meio de um menu interativo.
 - `gerenciador_chamados.py:` protótipo para gerenciamento e consulta de chamados internos.
+- `tarefa.py:` classe Tarefa e seus métodos.
+- `servicos.py:` funções de cadastro, listagem e filtro de tarefas.
 - `requirements.txt`: lista as dependências instaladas no ambiente virtual do projeto.
 - `.gitignore`: evita que a pasta do ambiente virtual (`.venv/`) seja versionada no Git.
+- `.venv/:` ambiente virtual utilizado para isolamento das dependências.
 
 ## Execução
 
