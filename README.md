@@ -8,14 +8,17 @@ Projeto inicial para organização de tarefas.
 
 ## Estrutura do projeto
 - `main.py`: arquivo principal e demonstração do sistema.
-- `cadastro_tarefa.py:` protótipo de cadastro de tarefas em terminal.
-- `menu_tarefas.py:` protótipo de gerenciamento de tarefas por meio de um menu interativo.
-- `gerenciador_chamados.py:` protótipo para gerenciamento e consulta de chamados internos.
-- `tarefa.py:` classe Tarefa e seus métodos.
-- `servicos.py:` funções de cadastro, listagem e filtro de tarefas.
+- `cadastro_tarefa.py`: protótipo de cadastro de tarefas em terminal.
+- `menu_tarefas.py`: protótipo de gerenciamento de tarefas por meio de um menu interativo.
+- `gerenciador_chamados.py`: protótipo para gerenciamento e consulta de chamados internos.
+- `tarefa.py`: classe Tarefa e seus métodos.
+- `servicos.py`: funções de cadastro, listagem e filtro de tarefas.
+- `menage.py`: arquivo utilizado para executar comandos do Django.
+- `gestao_tarefas/`: configurações principais do projeto Django.
+- `tarefas/`: aplicação responsável pelas funcionalidades das tarefas.
 - `requirements.txt`: lista as dependências instaladas no ambiente virtual do projeto.
 - `.gitignore`: evita que a pasta do ambiente virtual (`.venv/`) seja versionada no Git.
-- `.venv/:` ambiente virtual utilizado para isolamento das dependências.
+- `.venv/`: ambiente virtual utilizado para isolamento das dependências.
 
 ## Execução
 
@@ -30,6 +33,22 @@ python menu_tarefas.py
 Para executar o gerenciador de chamados:
 
 python gerenciador_chamados.py
+
+## Aplicação Web
+
+Para executar a aplicação Django, utilize:
+
+python manage.py runserver
+
+Após iniciar o servidor, acesse no navegador:
+
+http://127.0.0.1:8000/
+
+A listagem de tarefas está disponível em:
+
+http://127.0.0.1:8000/tarefas/
+
+A aplicação web possui uma página inicial e uma página de listagem de tarefas, utilizando dados temporários em memória.
 
 ## Opções do menu
 
